@@ -152,7 +152,7 @@ export const FullScreenNav = () => {
   return (
     <nav
       className={
-        "top-0 -mb-[8rem] hidden h-[8rem] w-full flex-row justify-between lowercase tracking-wide text-stone-950 lg:flex"
+        "absolute top-0 -mb-[8rem] hidden h-[8rem] w-full flex-row justify-between lowercase tracking-wide text-stone-950 lg:flex"
       }
     >
       <div className={"m-8 ml-10"}>
