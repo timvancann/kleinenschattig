@@ -23,7 +23,12 @@ const Hero = () => {
 }
 
 const HeroImage = () => {
-  return <img src={banner.src} alt={"placeholder"} className={"object-cover w-full"}/>
+  return (
+    <img
+      src={banner.src}
+      alt={"placeholder"}
+      className={`object-cover h-screen min-h-full w-screen`}/>
+  )
 }
 
 const CallOuts = () => {
